@@ -88,3 +88,18 @@ model:=/root/robotic_arm_ws/src/mycobot_ros2/mycobot_description/urdf/robots/myc
 > **Important:** This setup is for **visualization only**. It does not include physics, controllers, or real robot motion.
 
 ---
+
+## Screenshots
+
+Here’s the MyCobot 280 in RViz:
+
+![RViz View 1](mycobot_description/images/rviz_1.png)  
+![RViz View 2](mycobot_description/images/rviz_2.png)
+
+
+## Video / GIF Demo
+
+Watch a short demo of the MyCobot 280 moving in RViz:
+
+[![RViz Demo](mycobot_description/videos/rviz_demo.webm)](mycobot_description/videos/rviz_demo.webm)
+
