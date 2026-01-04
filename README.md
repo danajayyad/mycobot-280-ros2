@@ -89,17 +89,11 @@ model:=/root/robotic_arm_ws/src/mycobot_ros2/mycobot_description/urdf/robots/myc
 
 ---
 
-## Screenshots
+### RViz Screenshots
 
-Here’s the MyCobot 280 in RViz:
+![RViz 1](src/mycobot_ros2/mycobot_description/images/rviz_1.png)
+![RViz 2](src/mycobot_ros2/mycobot_description/images/rviz_2.png)
 
-![RViz View 1](mycobot_description/images/rviz_1.png)  
-![RViz View 2](mycobot_description/images/rviz_2.png)
+### RViz Demo Video
 
-
-## Video / GIF Demo
-
-Watch a short demo of the MyCobot 280 moving in RViz:
-
-[![RViz Demo](mycobot_description/videos/rviz_demo.webm)](mycobot_description/videos/rviz_demo.webm)
-
+[![RViz Demo](src/mycobot_ros2/mycobot_description/images/rviz_1.png)](src/mycobot_ros2/mycobot_description/videos/rviz_demo.webm)
