@@ -89,11 +89,3 @@ model:=/root/robotic_arm_ws/src/mycobot_ros2/mycobot_description/urdf/robots/myc
 
 ---
 
-### RViz Screenshots
-
-![RViz 1](src/mycobot_ros2/mycobot_description/images/rviz_1.png)
-![RViz 2](src/mycobot_ros2/mycobot_description/images/rviz_2.png)
-
-### RViz Demo Video
-
-[![RViz Demo](src/mycobot_ros2/mycobot_description/images/rviz_1.png)](src/mycobot_ros2/mycobot_description/videos/rviz_demo.webm)
