@@ -55,4 +55,17 @@
         </xacro:if>
     </xacro:if>
 
+    <!-- include ros2 control pieces -->
+    <!--  including the urdf file that connects ros2 control o gazebo with the load plugin defined in the file-->
+    <xacro:include filename="$(find mycobot_description)/urdf/control/gazebo_sim_ros2_control.urdf.xacro" />
+    <xacro:load_gazebo_sim_ros2_control_plugin
+      robot_name="$(arg robot_name)"
+      use_gazebo="$(arg use_gazebo)"/>
+
+    <!--  including the file that tells the system how  the joints are controlled -->
+    <xacro:include filename="$(find mycobot_description)/urdf/control/mycobot_280_ros2_control.urdf.xacro" />
+    <xacro:mycobot_ros2_control
+      prefix="$(arg prefix)"
+      flange_link="$(arg flange_link)"
+      use_gazebo="$(arg use_gazebo)"/>
 </robot>
